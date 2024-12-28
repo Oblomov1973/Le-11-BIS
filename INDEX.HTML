@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaboration Littéraire - Thriller</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #2d3436;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #636e72;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #2d3436;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .btn {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            background-color: #2d3436;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+        .btn:hover {
+            background-color: #636e72;
+        }
+        .work {
+            border-bottom: 1px solid #ddd;
+            padding: 1rem 0;
+        }
+        textarea {
+            width: 100%;
+            height: 150px;
+            margin: 1rem 0;
+            padding: 0.5rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            resize: vertical;
+        }
+        .collaborators {
+            margin: 2rem 0;
+            padding: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Collaboration Littéraire - Thriller</h1>
+    </header>
+    <nav>
+        <a href="#">Accueil</a>
+        <a href="#works">Projet en cours</a>
+        <a href="#collaborators">Collaborateurs</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="works">
+            <h2>Projet en cours : Thriller collaboratif</h2>
+            <textarea placeholder="Ajoutez votre contribution ici..."></textarea>
+            <button class="btn">Soumettre</button>
+        </section>
+
+        <section id="collaborators">
+            <h2>Collaborateurs</h2>
+            <div class="collaborators">
+                <p><strong>Marie L.</strong> - Spécialiste des descriptions atmosphériques</p>
+                <p><strong>Jean D.</strong> - Expert en dialogues captivants</p>
+            </div>
+            <p>Invitez d'autres auteurs à rejoindre le projet !</p>
+            <button class="btn">Inviter un collaborateur</button>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Collaboration Littéraire. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
